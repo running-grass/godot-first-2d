@@ -7,7 +7,6 @@ func _ready():
 	$AnimatedSprite2D.play(mob_types[randi() % mob_types.size()])
 
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
